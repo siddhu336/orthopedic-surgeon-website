@@ -1,0 +1,38 @@
+body {
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  section {
+    padding: 60px 0;
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+  }
+  
+  .hero {
+    background: url('/images/hero-bg.jpg') center/cover no-repeat;
+    height: 100vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .whatsapp_float img {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    height: 60px;
+    width: 60px;
+    z-index: 999;
+  }
+  
+  footer {
+    background: #343a40;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
